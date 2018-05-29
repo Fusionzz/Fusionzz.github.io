@@ -1,0 +1,81 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Abel;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-item{
+	padding:0px 25px 0px 25px;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(211,66,71, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgba(211,66,71, 1);
+} 
+
+.bg {
+    background-image: url("15th_Edited.jpg");
+
+    height: 100%; 
+
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+p{
+	font-size:20px;
+}
+
+.jumbotron{
+	margin-bottom: 0px;
+	border-radius: 0px;
+}
+
+table{
+    margin: auto;
+    width: 85%;
+    padding: 10px;
+}
+
+
+td img{ 
+	height: auto;
+	width: 100%;
+}
+
+#Portfolio .jumbotron{
+	overflow: auto;
+}
+
+td{
+	max-width: 150px;
+	max-height: 150px;
+}
+
+#last_Row img{
+	padding-right: 10px;
+}
+
+
+.odd{
+	background-color: black;
+}
+
+.odd h1{
+	color:white;
+}
+
+.odd p{
+	color:white;
+}
